@@ -1,0 +1,24 @@
+{
+  "fail_types": [
+    "garbage",
+    "silent"
+  ],
+  "silence_h": 24,
+  "temp_range": [
+    0,
+    45
+  ],
+  "humidity_range": [
+    0,
+    100
+  ],
+  "v_low": 2.4,
+  "bad_window": 60,
+  "bad_frac": 0.5,
+  "median_interval_s": 33.244021,
+  "end": "2004-04-03 16:51:34.171452",
+  "network_end": "2004-03-31 06:34:10.426817536",
+  "n_motes": 54,
+  "n_failing": 54,
+  "n_usable_failures": 54
+}

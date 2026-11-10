@@ -1,0 +1,41 @@
+# Python byte code and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Raw dataset files (download link provided in README)
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed heavy datasets (parquet files reproducible via notebooks 01 & 02)
+data/processed/*
+!data/processed/.gitkeep
+
+# Preserve lightweight metadata, definitions, and onset files needed by the demo
+!data/processed/*.json
+!data/processed/*.csv
+
+# Temporary files and logs
+*.log

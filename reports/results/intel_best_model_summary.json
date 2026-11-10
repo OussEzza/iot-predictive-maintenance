@@ -1,0 +1,19 @@
+{
+  "best_model": "LogisticRegression",
+  "H_final": 24,
+  "threshold_oof": 0.9372587349715242,
+  "cv_pr_auc": 0.9350573887163504,
+  "cv_lift": 17.754780928376068,
+  "test_nodes": [
+    4,
+    8,
+    12,
+    23,
+    24,
+    33,
+    37,
+    38,
+    44,
+    52
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "model": "LogisticRegression",
+  "horizon_h": 24,
+  "smooth_bins": 1,
+  "threshold": 0.10787873676815204,
+  "fa_budget": 0.02,
+  "development": {
+    "detected_%": 92.6829268292683,
+    "late_%": 0.0,
+    "missed_%": 7.317073170731707,
+    "median_lead_h": 65.5728855223611,
+    "false_alarms_per_node_day": 0.01947773369584814,
+    "n_nodes": 41
+  },
+  "test": {
+    "detected_%": 100.0,
+    "late_%": 0.0,
+    "missed_%": 0.0,
+    "median_lead_h": 100.38285353402777,
+    "false_alarms_per_node_day": 0.01469429306962115,
+    "n_nodes": 10,
+    "pr_auc": 0.6862277613532842,
+    "roc_auc": 0.9867595516013425,
+    "base_rate": 0.05983376727418386
+  },
+  "test_rule": {
+    "detected_%": 90.0,
+    "late_%": 0.0,
+    "missed_%": 10.0,
+    "median_lead_h": 72.11289581777778,
+    "false_alarms_per_node_day": 0.0
+  },
+  "development_strict": {
+    "detected_%": 92.6829268292683,
+    "late_%": 0.0,
+    "missed_%": 7.317073170731707,
+    "median_lead_h": 65.5728855223611,
+    "false_alarms_per_node_day": 0.01947773369584814
+  },
+  "test_strict": {
+    "detected_%": 90.0,
+    "late_%": 0.0,
+    "missed_%": 10.0,
+    "median_lead_h": 72.74749797277778,
+    "false_alarms_per_node_day": 0.01469429306962115
+  },
+  "test_rule_strict": {
+    "detected_%": 90.0,
+    "late_%": 0.0,
+    "missed_%": 10.0,
+    "median_lead_h": 72.11289581777778,
+    "false_alarms_per_node_day": 0.0
+  },
+  "development_strict_nodata": {
+    "detected_%": 100.0,
+    "late_%": 0.0,
+    "missed_%": 0.0,
+    "median_lead_h": 141.69562264027778,
+    "false_alarms_per_node_day": 0.17529960326263327
+  },
+  "test_strict_nodata_posthoc": {
+    "detected_%": 100.0,
+    "late_%": 0.0,
+    "missed_%": 0.0,
+    "median_lead_h": 128.3567975022222,
+    "false_alarms_per_node_day": 0.16163722376583264
+  }
+}
